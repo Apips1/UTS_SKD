@@ -28,14 +28,13 @@
 <!--===============================================================================================-->
 </head>
 <body>
-<form action="register.php" method="POST">
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100 p-t-30 p-b-50">
 				<span class="login100-form-title p-b-41">
-					Account Login
+					Account Register
 				</span>
-				<form class="login100-form validate-form p-b-33 p-t-5">
+				<form class="login100-form validate-form p-b-33 p-t-5" action="register.php" method="POST">
 
         <div class="wrap-input100 validate-input" data-validate = "Enter fullname">
 						<input class="input100" type="text" name="fullname" placeholder="full name">
@@ -56,11 +55,10 @@
 						<button class="login100-form-btn">
 							Register
 						</button>
-                        <p class="login-card-footer-text">Don't have an account? <a href="registerpage.php" class="text-reset">Register here</a></p>
 					</div>
+                   <center> <p class="login-card-footer-text"> have an account? <a href="index.php" class="text-reset">Login here</a></p></center>
 
 				</form>
-</form>
 			</div>
 		</div>
 	</div>
